@@ -6,14 +6,8 @@
 Please note that using ghc-mod as a user facing tool for IDE/Editor integration
 is no longer supported or maintained. We are in the process of refocusing our
 efforts around
-[haskell-ide-engine](https://github.com/haskell/haskell-ide-engine) as the main
+[haskell-language-server](https://github.com/haskell/haskell-language-server) as the main
 user/IDE facing program.
-
-Currently haskell-ide-engine still uses ghc-mod as a library for GHC session
-setup, so this part will still be maintained. However moving forward we're
-hoping to move most of the functionality which remains in ghc-mod (the library)
-into GHC upstream rendering ghc-mod unceccesary. Meanwhile ghc-mod (the library)
-will remain.
 
 If someone feels like taking over maintainership of ghc-mod as a standalone
 development tool feel free to contact the maintainer. However I must warn you: a
